@@ -635,6 +635,12 @@ def scan_once(cfg: dict, refs: list[Ref], store: Store, force: bool = False) -> 
             print(f"[{name}] failed: {e}")
         store.ran(name)
 
+    # one-time confirmation that Telegram is set up correctly
+    tg = cfg["telegram"]
+    if tg["bot_token"] and tg["chat_id"] and not store.state.get("telegram_ok"):
+        notify(cfg, "🧭 Odyssey is connected. Deals will arrive here.\n" + (cfg["app_url"] or ""))
+        store.state["telegram_ok"] = now_iso()
+
     deals = 0
     for l in listings:
         if not store.is_new(l.key()):
