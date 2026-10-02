@@ -359,14 +359,16 @@ def notify(cfg: dict, text: str):
     token, chat = cfg["telegram"]["bot_token"], cfg["telegram"]["chat_id"]
     if not token or not chat:
         print("\n[ALERT — Telegram not configured]\n" + text + "\n")
-        return
+        return False
     try:
         r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
                           data={"chat_id": chat, "text": text, "disable_web_page_preview": False},
                           timeout=15)
         r.raise_for_status()
+        return True
     except Exception as e:  # never let a failed alert kill the loop
         print(f"[telegram error] {e}\n{text}")
+        return False
 
 
 # --------------------------------------------------------------------------- #
@@ -638,8 +640,8 @@ def scan_once(cfg: dict, refs: list[Ref], store: Store, force: bool = False) -> 
     # one-time confirmation that Telegram is set up correctly
     tg = cfg["telegram"]
     if tg["bot_token"] and tg["chat_id"] and not store.state.get("telegram_ok"):
-        notify(cfg, "🧭 Odyssey is connected. Deals will arrive here.\n" + (cfg["app_url"] or ""))
-        store.state["telegram_ok"] = now_iso()
+        if notify(cfg, "🧭 Odyssey is connected. Deals will arrive here.\n" + (cfg["app_url"] or "")):
+            store.state["telegram_ok"] = now_iso()
 
     deals = 0
     for l in listings:
