@@ -1,0 +1,44 @@
+# Odyssey scanner — sources and notifications.
+# Money rules (tax, fees, costs, min profit, 7,000 DKK cap) live in docs/data/settings.json,
+# shared with the app.
+#
+# On GitHub, don't put secrets here. Add them as repository secrets instead:
+#   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, APP_URL,
+#   IMAP_USERNAME, IMAP_PASSWORD, EBAY_CLIENT_ID, EBAY_CLIENT_SECRET
+# A source switches on by itself once its secret exists.
+
+app_url: "https://schopenhauerrr.github.io/Odyssey-"
+scan_interval_minutes: 15
+
+telegram:
+  bot_token: ""
+  chat_id: ""
+
+sources:
+  # Saved-search alert e-mails from any site: DBA, Lauritz, Catawiki, Trendsales,
+  # Auctionet, Bruun Rasmussen, Tradera, Blocket... Label them in Gmail (filter → label).
+  email_alerts:
+    enabled: false
+    imap_host: imap.gmail.com
+    username: ""
+    password: ""               # Gmail app password
+    folder: "DealAlerts"
+    lookback_days: 2
+    senders: [dba.dk, lauritz.com, catawiki, trendsales, auctionet, bruun-rasmussen, tradera, blocket, vinted]
+
+  # eBay official Browse API (free key at developer.ebay.com)
+  ebay:
+    enabled: false
+    every_minutes: 60          # keeps you far inside eBay's free daily quota
+    client_id: ""
+    client_secret: ""
+    marketplaces: [EBAY_DE]
+    item_location_countries: [DK, DE, SE]
+    results_per_query: 50
+
+  # RSS/Atom feeds, for any site that offers one
+  rss:
+    enabled: false
+    feeds: []
+      # - name: "Example auction house"
+      #   url: "https://example.com/feed.xml"

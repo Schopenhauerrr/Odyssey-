@@ -1,0 +1,21 @@
+ref_id,name,include,exclude,search_query,resale_dkk,days_to_sell,verified,notes
+kb_monkey_m,Kay Bojesen monkey (medium),kay bojesen|bojesen;abe|monkey|affe,mini|lille|small|stor|large,kay bojesen abe,600,7,no,ROUGH GUESS - check sold prices
+kb_elephant,Kay Bojesen elephant,kay bojesen|bojesen;elefant|elephant,mini,kay bojesen elefant,450,10,no,ROUGH GUESS
+kb_soldier,Kay Bojesen guardsman (garder),kay bojesen|bojesen;garder|soldat|guardsman,,kay bojesen garder,400,10,no,ROUGH GUESS
+rc_flora_danica,Royal Copenhagen Flora Danica piece,royal copenhagen|rc;flora danica,,flora danica royal copenhagen,2000,30,no,ROUGH GUESS - value varies a lot by piece
+rc_baca_tenera,Royal Copenhagen Baca/Tenera faience,royal copenhagen|aluminia|fajance|faience;baca|tenera,,royal copenhagen baca vase,800,21,no,ROUGH GUESS - Nils Thorsson era
+rc_bluefluted_full,Royal Copenhagen Musselmalet helblonde (full lace),musselmalet|blue fluted;helblonde|full lace,,musselmalet helblonde,700,21,no,ROUGH GUESS
+gj_cutlery,Georg Jensen silver cutlery (Acorn/Cactus/Acanthus),georg jensen|gj;konge|acorn|kaktus|cactus|acanthus;solv|sterling|925,rustfri|stainless|plet,georg jensen konge solv,450,14,no,ROUGH GUESS - per piece
+holm_floorvase,Holmegaard/Kastrup gulvvase (Otto Brauer),holmegaard|kastrup|brauer;gulvvase|floor vase,mini|lille,holmegaard gulvvase,1800,21,no,ROUGH GUESS - large sizes worth more
+holm_lutken,Holmegaard Per Lutken art glass,holmegaard;lutken|lütken,,holmegaard per lutken vase,500,21,no,ROUGH GUESS
+kahler_hak,Kahler HAK vintage ceramics,kahler|kähler;hak|herman a kahler|vintage,,kahler hak vase,600,30,no,ROUGH GUESS
+ph5,Louis Poulsen PH5 pendant,ph5|ph 5|ph-5,mini|kopi|replika,louis poulsen ph5,3500,10,no,ROUGH GUESS - vintage colours worth more
+ph43,Louis Poulsen PH 4/3 pendant,ph 4/3|ph4/3|ph 4-3,,louis poulsen ph 4/3,3000,14,no,ROUGH GUESS
+ph_artichoke,Louis Poulsen PH Artichoke (Koglen),koglen|artichoke,mini|kopi|replika|lignende,ph koglen,30000,30,no,ROUGH GUESS - jackpot item; asking price must still be under the cap
+aj_lamp,Arne Jacobsen AJ lamp,arne jacobsen|aj;aj lampe|aj lamp|aj bordlampe|aj gulvlampe|aj vaeglampe,,arne jacobsen aj lampe,3000,14,no,ROUGH GUESS
+leklint_101,Le Klint 101/172 lamp,le klint;101|172|pendel|pendant,,le klint 101,1000,14,no,ROUGH GUESS
+aj_7er,Arne Jacobsen Syver chair (3107),arne jacobsen|fritz hansen;syver|7'er|3107|series 7|serie 7,,arne jacobsen syver stol,900,10,no,ROUGH GUESS - per chair; sets sell better
+aj_ant,Arne Jacobsen Ant chair (Myren),arne jacobsen|fritz hansen;myren|myre|ant,,arne jacobsen myren,900,14,no,ROUGH GUESS
+wegner_ch24,Wegner CH24 Wishbone / Y-stol,wegner|carl hansen;ch24|y-stol|y stol|wishbone|ystol,kopi|replika|lignende,wegner y-stol,2800,10,no,ROUGH GUESS
+mogensen_j39,Borge Mogensen J39 (Folkestolen),mogensen|fdb;j39|folkestol,,borge mogensen j39,1800,14,no,ROUGH GUESS
+quistgaard_teak,Jens Quistgaard teak (Dansk Designs),quistgaard|dansk designs;teak|isspand|ice bucket|bakke|tray,,quistgaard teak,700,30,no,ROUGH GUESS

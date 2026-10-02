@@ -1,0 +1,426 @@
+[
+ {
+  "id": "kb_monkey_m",
+  "name": "Kay Bojesen monkey (medium)",
+  "resale_dkk": 600.0,
+  "days_to_sell": 7.0,
+  "verified": false,
+  "keywords": [
+   [
+    "kay bojesen",
+    "bojesen"
+   ],
+   [
+    "abe",
+    "monkey",
+    "affe"
+   ]
+  ],
+  "exclude": [
+   "mini",
+   "lille",
+   "small",
+   "stor",
+   "large"
+  ],
+  "notes": "ROUGH GUESS - check sold prices"
+ },
+ {
+  "id": "kb_elephant",
+  "name": "Kay Bojesen elephant",
+  "resale_dkk": 450.0,
+  "days_to_sell": 10.0,
+  "verified": false,
+  "keywords": [
+   [
+    "kay bojesen",
+    "bojesen"
+   ],
+   [
+    "elefant",
+    "elephant"
+   ]
+  ],
+  "exclude": [
+   "mini"
+  ],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "kb_soldier",
+  "name": "Kay Bojesen guardsman (garder)",
+  "resale_dkk": 400.0,
+  "days_to_sell": 10.0,
+  "verified": false,
+  "keywords": [
+   [
+    "kay bojesen",
+    "bojesen"
+   ],
+   [
+    "garder",
+    "soldat",
+    "guardsman"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "rc_flora_danica",
+  "name": "Royal Copenhagen Flora Danica piece",
+  "resale_dkk": 2000.0,
+  "days_to_sell": 30.0,
+  "verified": false,
+  "keywords": [
+   [
+    "royal copenhagen",
+    "rc"
+   ],
+   [
+    "flora danica"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS - value varies a lot by piece"
+ },
+ {
+  "id": "rc_baca_tenera",
+  "name": "Royal Copenhagen Baca/Tenera faience",
+  "resale_dkk": 800.0,
+  "days_to_sell": 21.0,
+  "verified": false,
+  "keywords": [
+   [
+    "royal copenhagen",
+    "aluminia",
+    "fajance",
+    "faience"
+   ],
+   [
+    "baca",
+    "tenera"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS - Nils Thorsson era"
+ },
+ {
+  "id": "rc_bluefluted_full",
+  "name": "Royal Copenhagen Musselmalet helblonde (full lace)",
+  "resale_dkk": 700.0,
+  "days_to_sell": 21.0,
+  "verified": false,
+  "keywords": [
+   [
+    "musselmalet",
+    "blue fluted"
+   ],
+   [
+    "helblonde",
+    "full lace"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "gj_cutlery",
+  "name": "Georg Jensen silver cutlery (Acorn/Cactus/Acanthus)",
+  "resale_dkk": 450.0,
+  "days_to_sell": 14.0,
+  "verified": false,
+  "keywords": [
+   [
+    "georg jensen",
+    "gj"
+   ],
+   [
+    "konge",
+    "acorn",
+    "kaktus",
+    "cactus",
+    "acanthus"
+   ],
+   [
+    "solv",
+    "sterling",
+    "925"
+   ]
+  ],
+  "exclude": [
+   "rustfri",
+   "stainless",
+   "plet"
+  ],
+  "notes": "ROUGH GUESS - per piece"
+ },
+ {
+  "id": "holm_floorvase",
+  "name": "Holmegaard/Kastrup gulvvase (Otto Brauer)",
+  "resale_dkk": 1800.0,
+  "days_to_sell": 21.0,
+  "verified": false,
+  "keywords": [
+   [
+    "holmegaard",
+    "kastrup",
+    "brauer"
+   ],
+   [
+    "gulvvase",
+    "floor vase"
+   ]
+  ],
+  "exclude": [
+   "mini",
+   "lille"
+  ],
+  "notes": "ROUGH GUESS - large sizes worth more"
+ },
+ {
+  "id": "holm_lutken",
+  "name": "Holmegaard Per Lutken art glass",
+  "resale_dkk": 500.0,
+  "days_to_sell": 21.0,
+  "verified": false,
+  "keywords": [
+   [
+    "holmegaard"
+   ],
+   [
+    "lutken",
+    "lütken"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "kahler_hak",
+  "name": "Kahler HAK vintage ceramics",
+  "resale_dkk": 600.0,
+  "days_to_sell": 30.0,
+  "verified": false,
+  "keywords": [
+   [
+    "kahler",
+    "kähler"
+   ],
+   [
+    "hak",
+    "herman a kahler",
+    "vintage"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "ph5",
+  "name": "Louis Poulsen PH5 pendant",
+  "resale_dkk": 3500.0,
+  "days_to_sell": 10.0,
+  "verified": false,
+  "keywords": [
+   [
+    "ph5",
+    "ph 5",
+    "ph-5"
+   ]
+  ],
+  "exclude": [
+   "mini",
+   "kopi",
+   "replika"
+  ],
+  "notes": "ROUGH GUESS - vintage colours worth more"
+ },
+ {
+  "id": "ph43",
+  "name": "Louis Poulsen PH 4/3 pendant",
+  "resale_dkk": 3000.0,
+  "days_to_sell": 14.0,
+  "verified": false,
+  "keywords": [
+   [
+    "ph 4/3",
+    "ph4/3",
+    "ph 4-3"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "ph_artichoke",
+  "name": "Louis Poulsen PH Artichoke (Koglen)",
+  "resale_dkk": 30000.0,
+  "days_to_sell": 30.0,
+  "verified": false,
+  "keywords": [
+   [
+    "koglen",
+    "artichoke"
+   ]
+  ],
+  "exclude": [
+   "mini",
+   "kopi",
+   "replika",
+   "lignende"
+  ],
+  "notes": "ROUGH GUESS - jackpot item; asking price must still be under the cap"
+ },
+ {
+  "id": "aj_lamp",
+  "name": "Arne Jacobsen AJ lamp",
+  "resale_dkk": 3000.0,
+  "days_to_sell": 14.0,
+  "verified": false,
+  "keywords": [
+   [
+    "arne jacobsen",
+    "aj"
+   ],
+   [
+    "aj lampe",
+    "aj lamp",
+    "aj bordlampe",
+    "aj gulvlampe",
+    "aj vaeglampe"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "leklint_101",
+  "name": "Le Klint 101/172 lamp",
+  "resale_dkk": 1000.0,
+  "days_to_sell": 14.0,
+  "verified": false,
+  "keywords": [
+   [
+    "le klint"
+   ],
+   [
+    "101",
+    "172",
+    "pendel",
+    "pendant"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "aj_7er",
+  "name": "Arne Jacobsen Syver chair (3107)",
+  "resale_dkk": 900.0,
+  "days_to_sell": 10.0,
+  "verified": false,
+  "keywords": [
+   [
+    "arne jacobsen",
+    "fritz hansen"
+   ],
+   [
+    "syver",
+    "7'er",
+    "3107",
+    "series 7",
+    "serie 7"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS - per chair; sets sell better"
+ },
+ {
+  "id": "aj_ant",
+  "name": "Arne Jacobsen Ant chair (Myren)",
+  "resale_dkk": 900.0,
+  "days_to_sell": 14.0,
+  "verified": false,
+  "keywords": [
+   [
+    "arne jacobsen",
+    "fritz hansen"
+   ],
+   [
+    "myren",
+    "myre",
+    "ant"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "wegner_ch24",
+  "name": "Wegner CH24 Wishbone / Y-stol",
+  "resale_dkk": 2800.0,
+  "days_to_sell": 10.0,
+  "verified": false,
+  "keywords": [
+   [
+    "wegner",
+    "carl hansen"
+   ],
+   [
+    "ch24",
+    "y-stol",
+    "y stol",
+    "wishbone",
+    "ystol"
+   ]
+  ],
+  "exclude": [
+   "kopi",
+   "replika",
+   "lignende"
+  ],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "mogensen_j39",
+  "name": "Borge Mogensen J39 (Folkestolen)",
+  "resale_dkk": 1800.0,
+  "days_to_sell": 14.0,
+  "verified": false,
+  "keywords": [
+   [
+    "mogensen",
+    "fdb"
+   ],
+   [
+    "j39",
+    "folkestol"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ },
+ {
+  "id": "quistgaard_teak",
+  "name": "Jens Quistgaard teak (Dansk Designs)",
+  "resale_dkk": 700.0,
+  "days_to_sell": 30.0,
+  "verified": false,
+  "keywords": [
+   [
+    "quistgaard",
+    "dansk designs"
+   ],
+   [
+    "teak",
+    "isspand",
+    "ice bucket",
+    "bakke",
+    "tray"
+   ]
+  ],
+  "exclude": [],
+  "notes": "ROUGH GUESS"
+ }
+]

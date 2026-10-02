@@ -1,0 +1,27 @@
+{
+  "_note": "Defaults shared by the scanner (alerts) and the app. In the app, Settings overrides these on your phone only.",
+  "tax_rate": 0.5,
+  "min_profit_after_tax": 200,
+  "max_buy_ratio": 0.6,
+  "max_price_dkk": 7000,
+  "hours_per_item": 1.5,
+  "costs": { "transport": 60, "cleaning": 25, "packing": 40 },
+  "ship_by_default": false,
+  "default_platform": "dba",
+  "default_condition": "good",
+  "conditions": {
+    "excellent": { "label": "Excellent", "factor": 1.1 },
+    "good": { "label": "Good", "factor": 1.0 },
+    "fair": { "label": "Fair, visible wear", "factor": 0.7 },
+    "poor": { "label": "Needs repair", "factor": 0.4 }
+  },
+  "platforms": {
+    "dba":      { "label": "DBA",              "fee_pct": 0.0,   "fee_fixed": 0,  "days_factor": 1.0, "fixed_days": null },
+    "vinted":   { "label": "Vinted",           "fee_pct": 0.0,   "fee_fixed": 0,  "days_factor": 1.3, "fixed_days": null },
+    "catawiki": { "label": "Catawiki",         "fee_pct": 0.125, "fee_fixed": 0,  "days_factor": 1.0, "fixed_days": 14 },
+    "lauritz":  { "label": "Lauritz",          "fee_pct": 0.2,   "fee_fixed": 0,  "days_factor": 1.0, "fixed_days": 14 },
+    "ebay":     { "label": "eBay",             "fee_pct": 0.13,  "fee_fixed": 3,  "days_factor": 1.2, "fixed_days": null }
+  },
+  "fees_verified": false,
+  "currency_to_dkk": { "DKK": 1.0, "EUR": 7.46, "SEK": 0.68, "NOK": 0.64 }
+}

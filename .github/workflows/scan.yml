@@ -1,0 +1,54 @@
+name: Odyssey scan
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # every 15 minutes (GitHub may run it a few minutes late)
+  workflow_dispatch: {}        # "Run workflow" button for a manual scan
+  push:
+    paths: ["scanner/reference_prices.csv", "docs/data/settings.json"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: odyssey-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scanner/requirements.txt
+
+      - run: pip install -r scanner/requirements.txt
+
+      - name: Scan
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          APP_URL: ${{ secrets.APP_URL }}
+          IMAP_USERNAME: ${{ secrets.IMAP_USERNAME }}
+          IMAP_PASSWORD: ${{ secrets.IMAP_PASSWORD }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: python scanner/scanner.py once
+
+      - name: Save results for the app
+        run: |
+          git config user.name "odyssey-bot"
+          git config user.email "odyssey-bot@users.noreply.github.com"
+          git add docs/data data
+          if git diff --cached --quiet; then
+            echo "nothing new"
+          else
+            git commit -m "scan $(date -u +%Y-%m-%dT%H:%M)"
+            git pull --rebase --autostash
+            git push
+          fi

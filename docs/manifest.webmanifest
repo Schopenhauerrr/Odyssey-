@@ -1,0 +1,16 @@
+{
+  "name": "Odyssey",
+  "short_name": "Odyssey",
+  "description": "Find underpriced Danish design and see the full profit picture before you buy.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0F16",
+  "theme_color": "#0A0F16",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
